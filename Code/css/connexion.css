@@ -1,0 +1,29 @@
+.header_section{
+    text-align: center;
+    border-bottom: 3px solid black;
+    font-size: xx-large;
+    position: relative;
+}
+
+form{
+    padding: 2%;
+}
+
+.container{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 10%;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.element{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 2%;
+    font-size: xx-large;
+}

@@ -1,0 +1,106 @@
+/* Code Général */
+
+section{
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Code Liste */
+
+.fromages{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.selection{
+    font-size: large;
+    color: steelblue;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-decoration: underline double blue;
+}
+
+#dep{
+    margin-top: 5px;
+}
+
+/* Code Carte */
+
+.carte {
+    display: flex;
+    width: 50%; 
+    margin: 0 auto;
+    border-right: 5px inset steelblue;
+}
+
+path {
+    stroke: #000000;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity: .25;
+    fill: #86aae0;
+}
+
+/* autres départements de la région survolée*/
+g:hover path {
+    fill: #86cce0;
+}
+
+/*département survolé*/
+g path:hover {
+    fill: #86eee0;
+}
+
+/* Code Itinéraire */
+
+.liste{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.liste a { 
+    display:block; 
+    color: whitesmoke;
+    text-decoration: white wavy underline;;
+    text-align: center;
+}
+
+.liste > li,
+.liste > li li {
+    position: relative;
+    display:inline-block;
+    width: 200px;
+    padding: 6px 15px;
+    background-color: steelblue;
+}
+
+.liste > li li { background: lightblue; }
+.liste > li li a { color: slategrey; text-decoration: none; }
+.liste > li li:hover { background: lightcyan; }
+
+.liste ul {
+    position: absolute;
+    top: 2em;
+    left: 0;
+    max-height:0em; 
+    margin: 0; padding: 0;
+    background-color: #ddd;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s max-height 0.3s;
+    border-radius: 0 0 8px 8px;
+}
+
+.liste > li:hover ul {
+    max-height: 5em;
+}
+
+/* Code Footer */
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}

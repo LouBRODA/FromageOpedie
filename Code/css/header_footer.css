@@ -1,0 +1,85 @@
+/* Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+/* Code header */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    font-family: 'Abyssinica SIL', serif;
+    position: fixed;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav .onglets,
+nav .log{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .onglets a,
+nav .log a{
+    padding: 4%;
+}
+
+nav .log{
+    margin-right: 5%;
+}
+
+nav .titre{
+    margin-left: 5%;
+}
+
+/* Code footer */
+
+footer{
+    background-color: black;
+    color: white;
+    position:absolute;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+footer .global_footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.foot1,
+.foot2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Code body commun à toutes les pages */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+}

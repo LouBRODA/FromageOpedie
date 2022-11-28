@@ -1,0 +1,64 @@
+.header_section{
+    text-align: center;
+    border-bottom: 3px solid black;
+    font-size: xx-large;
+    position: relative;
+}
+
+.affinage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2%;
+    margin: 0;
+}
+
+.recherche{
+    margin-right: 2%;
+}
+
+.container_fromage{ /* Css de la liste de fromage */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+form{
+    margin: 1%;
+}
+
+.fromage{ /* Css d'un élément fromage de la liste */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid black;
+    margin: 2%;
+}
+
+.button_detail{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+}
+
+.fromage img{
+    height: 10em;
+    width: 12em;
+}
+
+.fromage form i{
+    font-size: 260%;
+}
+
+.fromage h1{
+    font-size: 300%;
+}
+
+.global_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

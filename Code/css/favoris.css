@@ -1,0 +1,45 @@
+.header_section{
+    text-align: center;
+    border-bottom: 3px solid black;
+    font-size: xx-large;
+    position: relative;
+}
+
+.container_fromage{ /* Css de la liste de fromage */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fromage{ /* Css d'un élément fromage de la liste */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid black;
+    margin: 2%;
+}
+
+.fromage img{
+    height: auto;
+}
+
+.fromage form i{
+    font-size: 260%;
+}
+
+.fromage h1{
+    font-size: 300%;
+}
+
+.global_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fromage i{
+    color: yellow;
+}

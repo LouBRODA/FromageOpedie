@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+}
+
+.header_section{
+    text-align: center;
+    border-bottom: 3px solid black;
+    font-size: xx-large;
+    position: relative;
+}
+
+.texte h1{
+    font-size: 300%;
+}
+
+.texte p,
+.texte details{
+    font-size: xx-large;
+}
+
+.texte details{
+    margin-bottom: 1%;
+}
+
+fieldset{
+    width: 50%;
+}
+
+.sommaire{
+    display: flex;
+    justify-content: center;
+}
+
+fieldset legend{
+    font-size: x-large;
+}
+
+details a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+details a:hover{
+    text-decoration: underline;
+}
+
+.texte p .icon{
+    height: 4%;
+    width: 4%;
+}
+
+.texte p .cycle_fabrication{
+    width: 80%;
+}
+
+.video {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+}
+
+.video video {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}

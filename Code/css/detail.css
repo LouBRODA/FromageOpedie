@@ -1,0 +1,101 @@
+/* Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/* EnTete */
+
+.entete{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.entete img{
+    height: 6em;
+    width: 6em;
+}
+
+/* Corps */
+
+.informations{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+
+/* Corps description */
+
+.description{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+/* Corps note */
+
+.avis{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.note{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: x-large;
+}
+
+.etoile {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.etoile a {
+    float:right;
+    color: gray;
+    text-decoration: none;
+}
+
+.etoile a:hover,
+.etoile a:hover ~ a,
+.etoile a:focus,
+.etoile a:focus ~ a {
+    color: gold;
+    cursor: pointer;
+}
+
+.etoile2 {
+    direction: rtl;
+}
+
+.etoile2 a {
+    float:none
+}
+
+.wiki{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.corps{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/******** Espace commentaire ********/
+

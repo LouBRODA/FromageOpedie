@@ -1,0 +1,50 @@
+/* Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/* Code */
+
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: white;
+    font-size: 2em;
+}
+
+.container img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.texte{
+    position: absolute;
+    z-index: 10;
+    top: 10%;
+    left: 10%;
+}
+
+.container_explication{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+.expl1,
+.expl2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.expl1 p,
+.expl2 p{
+    text-align: center;
+}
